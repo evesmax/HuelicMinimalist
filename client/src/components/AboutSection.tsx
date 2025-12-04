@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Award, ShieldCheck, Apple, FileText } from 'lucide-react';
+import { Award, ShieldCheck, Apple, FileText, HeartHandshake } from 'lucide-react';
 
 const values = [
   {
@@ -18,6 +18,11 @@ const values = [
     icon: Apple,
     title: 'Nutrición',
     description: 'Menús balanceados diseñados por nutriólogos profesionales para el bienestar de tus colaboradores.',
+  },
+  {
+    icon: HeartHandshake,
+    title: 'Atención Personalizada',
+    description: 'Nuestro equipo está aquí para escucharte y entender tus necesidades. Nos enorgullece ofrecer un servicio al cliente excepcional y soluciones a medida.',
   },
 ];
 
@@ -60,7 +65,7 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mb-16">
           {values.map((value, index) => (
             <Card
               key={value.title}
