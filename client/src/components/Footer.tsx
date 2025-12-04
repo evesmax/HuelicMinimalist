@@ -1,4 +1,5 @@
-import { Leaf, MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
+import logoWhite from '@assets/Logo-blanco-Curves_1764809674189.png';
 
 const quickLinks = [
   { label: 'Inicio', href: '#inicio' },
@@ -34,15 +35,14 @@ export default function Footer() {
             <a
               href="#inicio"
               onClick={(e) => scrollToSection(e, '#inicio')}
-              className="flex items-center gap-2 mb-6"
+              className="flex items-center mb-6"
               data-testid="link-footer-logo"
             >
-              <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-                <Leaf className="w-6 h-6" />
-              </div>
-              <span className="font-heading font-bold text-xl">
-                Huelic Service
-              </span>
+              <img
+                src={logoWhite}
+                alt="Huelic Service - Servicios de alimentación"
+                className="h-12 w-auto"
+              />
             </a>
             <p className="text-primary-foreground/80 leading-relaxed">
               Más de 15 años brindando servicios de alimentación corporativa de la más alta calidad.

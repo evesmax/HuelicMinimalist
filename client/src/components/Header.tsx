@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Leaf } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logoWhite from '@assets/Logo-blanco-Curves_1764809674189.png';
 
 const navItems = [
   { label: 'Inicio', href: '#inicio' },
@@ -45,15 +46,14 @@ export default function Header() {
           <a
             href="#inicio"
             onClick={(e) => scrollToSection(e, '#inicio')}
-            className="flex items-center gap-2"
+            className="flex items-center"
             data-testid="link-logo"
           >
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <Leaf className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className={`font-heading font-bold text-xl ${isScrolled ? 'text-foreground' : 'text-white'}`}>
-              Huelic Service
-            </span>
+            <img
+              src={logoWhite}
+              alt="Huelic Service - Servicios de alimentación"
+              className={`h-10 md:h-12 w-auto transition-all ${isScrolled ? 'brightness-0' : ''}`}
+            />
           </a>
 
           <nav className="hidden md:flex items-center gap-1" data-testid="nav-desktop">
