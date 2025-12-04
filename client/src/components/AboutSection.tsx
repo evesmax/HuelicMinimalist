@@ -6,8 +6,8 @@ import { Award, ShieldCheck, Apple, FileText } from 'lucide-react';
 const values = [
   {
     icon: Award,
-    title: 'Calidad',
-    description: 'Ingredientes frescos y seleccionados para garantizar el mejor sabor y valor nutricional en cada platillo.',
+    title: 'Calidad y Frescura',
+    description: 'Utilizamos ingredientes frescos y de alta calidad, seleccionados cuidadosamente para garantizar que cada plato sea una experiencia memorable.',
   },
   {
     icon: ShieldCheck,
