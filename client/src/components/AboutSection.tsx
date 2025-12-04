@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Award, ShieldCheck, Apple, FileText, HeartHandshake } from 'lucide-react';
+import { Award, ShieldCheck, Apple, FileText, HeartHandshake, Truck } from 'lucide-react';
 
 const values = [
   {
@@ -23,6 +23,11 @@ const values = [
     icon: HeartHandshake,
     title: 'Atención Personalizada',
     description: 'Nuestro equipo está aquí para escucharte y entender tus necesidades. Nos enorgullece ofrecer un servicio al cliente excepcional y soluciones a medida.',
+  },
+  {
+    icon: Truck,
+    title: 'Logística y Distribución',
+    description: 'En Huelic, entendemos que la alimentación industrial es un componente esencial para el éxito de tu operación. Nos especializamos en ofrecer soluciones personalizadas que se adaptan a las necesidades específicas de tu industria, garantizando calidad, eficiencia y seguridad en cada uno de nuestros servicios.',
   },
 ];
 
@@ -65,7 +70,7 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 mb-16">
           {values.map((value, index) => (
             <Card
               key={value.title}
