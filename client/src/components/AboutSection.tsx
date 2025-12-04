@@ -52,12 +52,11 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 md:mb-20">
           <h2 className="font-heading font-bold text-3xl sm:text-4xl md:text-5xl text-foreground mb-6">
-            Sobre <span className="text-primary">Nosotros</span>
+            ¿Por Qué <span className="text-primary">Elegirnos</span>?
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Con más de <strong className="text-foreground">15 años de experiencia</strong> en el sector de alimentación corporativa, 
-            Huelic Service se ha consolidado como líder en servicios de comedores industriales, 
-            catering empresarial y eventos corporativos.
+            Somos una compañía especializada en servicios de alimentación y comedores industriales, 
+            corporativos y ejecutivos, rígidos bajo los estándares más estrictos de calidad e higiene.
           </p>
         </div>
 
