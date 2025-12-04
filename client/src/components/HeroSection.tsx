@@ -23,6 +23,10 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
       
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
+        <p className="text-accent font-heading font-semibold text-lg sm:text-xl md:text-2xl mb-4 tracking-wide">
+          Pasión por los alimentos
+        </p>
+        
         <h1 className="font-heading font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white mb-6 leading-tight">
           Alimentación de{' '}
           <span className="text-accent">Calidad</span>{' '}

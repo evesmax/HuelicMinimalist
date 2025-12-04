@@ -44,6 +44,9 @@ export default function Footer() {
                 className="h-12 w-auto"
               />
             </a>
+            <p className="text-accent font-heading font-medium italic mb-3">
+              "Pasión por los alimentos"
+            </p>
             <p className="text-primary-foreground/80 leading-relaxed">
               Más de 15 años brindando servicios de alimentación corporativa de la más alta calidad.
             </p>
