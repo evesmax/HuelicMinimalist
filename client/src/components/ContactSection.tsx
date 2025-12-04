@@ -16,7 +16,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Teléfono',
-    content: '+52 (55) 1234-5678',
+    content: '33 1249 9383',
   },
   {
     icon: Mail,
