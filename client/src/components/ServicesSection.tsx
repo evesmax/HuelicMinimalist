@@ -70,6 +70,62 @@ export default function ServicesSection() {
           </p>
         </div>
 
+        <div className="bg-muted rounded-md p-8 md:p-12 mb-16 md:mb-20">
+          <h3 className="font-heading font-bold text-2xl sm:text-3xl text-foreground mb-8 text-center">
+            ¿Qué ofrecemos a nuestros <span className="text-primary">clientes</span>?
+          </h3>
+          <ul className="space-y-4 max-w-4xl mx-auto">
+            <li className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+              <p className="text-muted-foreground leading-relaxed">
+                Materias primas aprobadas y reconocidas, dando prioridad, aquellos que cuentan con certificaciones, productos lácteos pausterizados, productos cárnicos certificados TIF.
+              </p>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+              <p className="text-muted-foreground leading-relaxed">
+                Conocimiento y aplicación de procesos de acuerdo a la NOM-251–SSA1-2009. Personal certificado y debidamente uniformado, capacitación continua con programa anual preestablecido.
+              </p>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+              <p className="text-muted-foreground leading-relaxed">
+                Contar con una póliza de Responsabilidad Civil por la naturaleza de nuestros actos que ampara $500,000.00 a $2,000,000.00.
+              </p>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+              <p className="text-muted-foreground leading-relaxed">
+                El responsable que se determine para la unidad, contará con capacidad profesional en el ramo alimenticio, experiencia, sentido de urgencia, atención y servicio al cliente.
+              </p>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+              <p className="text-muted-foreground leading-relaxed">
+                Somos una empresa incluyente, por lo que contamos con un plan de RESPONSABILIDAD SOCIAL.
+              </p>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+              <p className="text-muted-foreground leading-relaxed">
+                Filtros Sanitarios apegados a la NOM-251-SSA1-2009 o requerimiento específico.
+              </p>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+              <p className="text-muted-foreground leading-relaxed">
+                Participación nutricional con el departamento médico de la planta para asesorías de comensales con patologías metabólicas.
+              </p>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-primary mt-2.5 flex-shrink-0"></span>
+              <p className="text-muted-foreground leading-relaxed">
+                Plantilla con seguridad social (IMSS).
+              </p>
+            </li>
+          </ul>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
           {services.map((service, index) => (
             <div
