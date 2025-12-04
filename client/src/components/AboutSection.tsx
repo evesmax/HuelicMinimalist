@@ -11,8 +11,8 @@ const values = [
   },
   {
     icon: ShieldCheck,
-    title: 'Higiene',
-    description: 'Cumplimos con los más estrictos protocolos sanitarios y certificaciones internacionales de seguridad alimentaria.',
+    title: 'Compromiso con la Sostenibilidad',
+    description: 'Trabajamos con proveedores locales y sostenibles, minimizando nuestro impacto ambiental y apoyando a la comunidad.',
   },
   {
     icon: Apple,
