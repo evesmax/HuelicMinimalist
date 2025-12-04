@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Award, ShieldCheck, Apple, FileText, HeartHandshake, Truck } from 'lucide-react';
+import { Award, ShieldCheck, Apple, FileText, HeartHandshake, Truck, Target } from 'lucide-react';
 
 const values = [
   {
@@ -28,6 +28,11 @@ const values = [
     icon: Truck,
     title: 'Logística y Distribución',
     description: 'En Huelic, entendemos que la alimentación industrial es un componente esencial para el éxito de tu operación. Nos especializamos en ofrecer soluciones personalizadas que se adaptan a las necesidades específicas de tu industria, garantizando calidad, eficiencia y seguridad en cada uno de nuestros servicios.',
+  },
+  {
+    icon: Target,
+    title: 'Compromiso',
+    description: 'Nos comprometemos a ofrecer un servicio excepcional y a construir relaciones duraderas con nuestros clientes.',
   },
 ];
 
