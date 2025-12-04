@@ -107,7 +107,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 flex-shrink-0 text-primary-foreground/60" />
                 <span className="text-primary-foreground/80">
-                  contacto@huelicservice.com
+                  maikestrella@hotmail.com
                 </span>
               </li>
             </ul>
