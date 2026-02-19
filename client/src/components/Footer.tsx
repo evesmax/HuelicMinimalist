@@ -101,13 +101,13 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 flex-shrink-0 text-primary-foreground/60" />
                 <span className="text-primary-foreground/80">
-                  33 1249 9383
+                  33 1249 9383 / 331 534 0260
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 flex-shrink-0 text-primary-foreground/60" />
                 <span className="text-primary-foreground/80">
-                  hueliccorp@gmail.com
+                  hueliccorp@gmail.com / contacto@huelicservice.com
                 </span>
               </li>
             </ul>

@@ -16,12 +16,12 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Teléfono',
-    content: '33 1249 9383',
+    content: '33 1249 9383 / 331 534 0260',
   },
   {
     icon: Mail,
     title: 'Email',
-    content: 'hueliccorp@gmail.com',
+    content: 'hueliccorp@gmail.com / contacto@huelicservice.com',
   },
   {
     icon: Clock,
