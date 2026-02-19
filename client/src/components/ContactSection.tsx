@@ -105,18 +105,28 @@ export default function ContactSection() {
                 Síguenos
               </h4>
               <div className="flex gap-3">
-                {['Facebook', 'LinkedIn', 'Instagram'].map((social) => (
-                  <Button
-                    key={social}
-                    size="icon"
-                    variant="outline"
-                    onClick={() => console.log(`Navigate to ${social}`)}
-                    data-testid={`button-social-${social.toLowerCase()}`}
-                  >
-                    <span className="sr-only">{social}</span>
-                    <span className="text-xs font-bold">{social[0]}</span>
-                  </Button>
-                ))}
+                <Button
+                  size="icon"
+                  variant="outline"
+                  asChild
+                  data-testid="button-social-facebook"
+                >
+                  <a href="https://www.facebook.com/profile.php?id=61563036064015&rdid=OtJlfN80vErQePLp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Zwu5ELLiq%2F#" target="_blank" rel="noopener noreferrer">
+                    <span className="sr-only">Facebook</span>
+                    <span className="text-xs font-bold">F</span>
+                  </a>
+                </Button>
+                <Button
+                  size="icon"
+                  variant="outline"
+                  asChild
+                  data-testid="button-social-linkedin"
+                >
+                  <a href="https://www.linkedin.com/in/miguel-angel-estrella-261bb1394/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                    <span className="sr-only">LinkedIn</span>
+                    <span className="text-xs font-bold">L</span>
+                  </a>
+                </Button>
               </div>
             </div>
           </div>

@@ -123,6 +123,24 @@ export default function Footer() {
             </p>
             <div className="flex gap-6">
               <a
+                href="https://www.facebook.com/profile.php?id=61563036064015&rdid=OtJlfN80vErQePLp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Zwu5ELLiq%2F#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors"
+                data-testid="link-facebook"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://www.linkedin.com/in/miguel-angel-estrella-261bb1394/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors"
+                data-testid="link-linkedin"
+              >
+                LinkedIn
+              </a>
+              <a
                 href="#"
                 className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors"
                 onClick={(e) => e.preventDefault()}
