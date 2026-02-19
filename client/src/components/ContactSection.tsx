@@ -11,7 +11,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Dirección',
-    content: 'Av. Principal #123, Col. Centro, Ciudad de México, CP 06000',
+    content: 'Castillo de Chapultepec, 947, local 6, San José del Castillo, Jal., 45685, Mexico',
   },
   {
     icon: Phone,
